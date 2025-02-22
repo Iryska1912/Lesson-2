@@ -1,4 +1,5 @@
 import "./App.css";
+import bd from "../bd.json";
 
 function App() {
   // prymityw w masywach
@@ -15,22 +16,29 @@ function App() {
   // console.log(arr);
 
   //
-  //
+  //sortuwanie
 
-  const arr = [56, 10, 3, -4, 8];
-  console.log(arr);
-  arr.sort((a, b) => a - b);
-  console.log(arr);
+  // const arr = [56, 10, 3, -4, 8];
+  // console.log(arr);
+  // arr.sort((a, b) => a - b);
+  // console.log(arr);
 
-  const arrNumb = [56, 10, 3, -4, 8];
-  console.log(arrNumb);
-  arrNumb.sort((a, b) => b - a);
-  console.log(arrNumb);
+  // const arrNumb = [56, 10, 3, -4, 8];
+  // console.log(arrNumb);
+  // arrNumb.sort((a, b) => b - a);
+  // console.log(arrNumb);
 
-  const arrLit = ["s", "n", "a"];
-  console.log(arrLit);
-  arrLit.sort();
-  console.log(arrLit);
+  // const arrLit = ["s", "n", "a"];
+  // console.log(arrLit);
+  // arrLit.sort();
+  // console.log(arrLit);
+
+  // praca z plikiem
+
+  // console.log(bd);
+
+  let sum = bd.reduce((kalkul, elem) => kalkul + elem, 0);
+  console.log(sum);
 
   return (
     <>
