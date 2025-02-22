@@ -37,12 +37,47 @@ function App() {
 
   // console.log(bd);
 
-  let sum = bd.reduce((kalkul, elem) => kalkul + elem, 0);
-  console.log(sum);
+  // let sum = bd.reduce((kalkul, elem) => kalkul + elem, 0);
+  // console.log(sum);
+
+  // objekt
+
+  const man = {
+    name: "Adam",
+    height: 182,
+    friends: ["Piotr", "Michał", "Kuba", "Oskar", "Filip", "Mateusz"],
+    readBooks: [
+      { nazwa: "Słońce w niebie", rok: 2000, ilStron: 250 },
+      { nazwa: "Gwiazdy w niebie", rok: 2015, ilStron: 105 },
+      { nazwa: "Księżyc w niebie", rok: 2020, ilStron: 450 },
+    ],
+  };
+  console.log(man);
 
   return (
     <>
       <p>Hello</p>
+      <div className="ankieta">
+        <p>Name: {man.name}</p>
+        <p>Wzrost: {man.height}</p>
+        <ul>
+          {man.friends.map((friend, index) => {
+            return <li key={index}>{friend}</li>;
+          })}
+        </ul>
+
+        <ul>
+          {man.readBooks.map((book, index) => {
+            return (
+              <li key={index}>
+                <p>Nazwa książki: {book.nazwa}</p>
+                <p>Rok wydania: {book.rok}</p>
+                <p>Iłość stron: {book.ilStron}</p>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </>
   );
 }

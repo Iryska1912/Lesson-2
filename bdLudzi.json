@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Adam",
+    "height": 182,
+    "friends": ["Piotr", "Michał", "Kuba", "Oskar", "Filip", "Mateusz"],
+    "readBooks": [
+      { "nazwa": "Słońce w niebie", "rok": 2000, "ilStron": 250 },
+      { "nazwa": "Gwiazdy w niebie", "rok": 2015, "ilStron": 105 },
+      { "nazwa": "Księżyc w niebie", "rok": 2020, "ilStron": 450 }
+    ]
+  },
+  {
+    "name": "Adam",
+    "height": 182,
+    "friends": ["Piotr", "Michał", "Kuba", "Oskar", "Filip", "Mateusz"],
+    "readBooks": [
+      { "nazwa": "Słońce w niebie", "rok": 2000, "ilStron": 250 },
+      { "nazwa": "Gwiazdy w niebie", "rok": 2015, "ilStron": 105 },
+      { "nazwa": "Księżyc w niebie", "rok": 2020, "ilStron": 450 }
+    ]
+  }
+]
