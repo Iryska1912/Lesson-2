@@ -2,6 +2,29 @@ import "./App.css";
 import bd from "../bd.json";
 
 function App() {
+const komp=3, a=1, b=100;
+let  x, y, z, sum, w1,w2,w3,w4,w5,w6,w7,w8,w9;
+x=2, y=4;
+z=x+y;
+sum=2*x+3*y;
+console.log(a,z, sum);
+w1=komp*1;
+w2=komp*2;
+w3=komp*3;
+w4=komp*4;
+w5=komp*5;
+w6=komp*6;
+w7=komp*7;
+w8=komp*8;
+w9=komp*9;
+
+
+
+
+
+
+
+
   // prymityw w masywach
 
   // const arr = [1, 2, 3];
@@ -52,10 +75,22 @@ function App() {
       { nazwa: "Księżyc w niebie", rok: 2020, ilStron: 450 },
     ],
   };
-  console.log(man);
+  // console.log(man);
 
   return (
-    <>
+    <><div className="tratata">
+      <p className="ppp">moj komputer ma numer - {komp}</p></div>
+    
+<p>{komp}*1={w1}</p>
+<p>{komp}*2={w2}</p>
+<p>{komp}*3={w3}</p>
+<p>{komp}*4={w4}</p>
+<p>{komp}*5={w5}</p>
+<p>{komp}*6={w6}</p>
+<p>{komp}*7={w7}</p>
+<p>{komp}*8={w8}</p>
+<p>{komp}*9={w9}</p>
+
       <p>Hello</p>
       <div className="ankieta">
         <p>Name: {man.name}</p>
