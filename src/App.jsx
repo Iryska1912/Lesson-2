@@ -2,6 +2,23 @@ import "./App.css";
 import bd from "../bd.json";
 
 function App() {
+const a1=32, g=5, n_k=5;
+let a2,a3=1, s1,s2,s3, sum2;
+sum2=a1+g;
+console.log(a1,sum2);
+s1=n_k*1;
+s2=n_k*2;
+s3=n_k*3;
+
+
+
+
+
+
+
+
+
+
 const komp=3, a=1, b=100;
 let  x, y, z, sum, w1,w2,w3,w4,w5,w6,w7,w8,w9;
 x=2, y=4;
@@ -78,7 +95,13 @@ w9=komp*9;
   // console.log(man);
 
   return (
-    <><div className="tratata">
+    <>
+    <p className="ppp3">moj komp - {n_k}</p>
+    <p>{n_k}*1={s1}</p>
+    <p>{n_k}*2={s2}</p>
+    <p>{n_k}*3={s3}</p>
+
+    <div className="tratata">
       <p className="ppp">moj komputer ma numer - {komp}</p></div>
     
 <p>{komp}*1={w1}</p>
