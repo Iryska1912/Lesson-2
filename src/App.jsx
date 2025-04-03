@@ -2,8 +2,8 @@ import "./App.css";
 import bd from "../bd.json";
 
 function App() {
-const aa=5, bb=3, m_komp=140, fhghj_hvhdrjh=7;
-let cc,dd=8,ee;
+const aa=5, bb=3, m_komp=2, fhghj_hvhdrjh=7;
+let cc,dd=8,ee, xx=1, yy=2;
 cc=aa*bb;
 ee=dd+aa-cc*17+2*aa*aa;
 console.log(cc,ee,'hej');
@@ -18,6 +18,8 @@ let wyn8=m_komp*8;
 let wyn9=m_komp*9;
 let wyn10=m_komp*10;
 
+let wyn11=2*xx+yy;
+let wyn12=xx*xx-3*yy*yy*yy;
 
  
 
@@ -125,6 +127,13 @@ w9=komp*9;
 <p>{m_komp}*8={wyn8}</p>
 <p>{m_komp}*9={wyn9}</p>
 <p>{m_komp}*10={wyn10}</p>
+    </div>
+    <br />
+    <div className="ddddd2">
+      <p>Równiania</p>
+      <p>2x+y={wyn11}</p>
+      <p>x<sup>2</sup>-3y<sup>3</sup>={wyn12}</p>
+
     </div>
 
 
